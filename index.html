@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,200;1,500&display=swap"
+        rel="stylesheet">
+    <title>June's Site</title>
+</head>
+
+<body>
+    <header>
+        <div class="heading">
+            <span>
+                Welcome_
+            </span>
+            <a href="#about"><img src="/images/icons8-expand-arrow-50.png" alt="down arrow"></a>
+        </div>
+        <canvas id="canvas1"></canvas>
+    </header>
+
+    <main>
+        <nav>
+            <ul class="nav">
+                <li id="nav-about" class="nav-item"><a href="#about">About</a></li>
+                <li id="nav-projects" class="nav-item"><a href="#projects">Projects</a></li>
+                <li id="nav-contact" class="nav-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="about" class="about">
+            <h2 class="section-heading">About</h2>
+            <div class="about content"></div>
+            <a id="avatar"><img src="/images/girl.png"></a>
+            <p class="blurb">June is a passionate learner who dived into web development post-grad and hasn't looked
+                back since. They're fascinated with this industry where creativity and problem solving are
+                intertwined. Each project presents an opportunity to learn something new about web technologies and they
+                wouldn't have it any other way.</p>
+            <p class="blurb">When not pouring over work June enjoys studying Japanese, drawing, or helplessly playing
+                horror games.</p>
+            </div>
+
+            <div class="skills">
+                <div class="skill-item">
+                    <img src="/images/128px-HTML5_logo_and_wordmark.svg.png">
+                    HTML
+                </div>
+                <div class="skill-item">
+                    <img src="/images/CSS3_logo_and_wordmark.svg.png">
+                    CSS
+                </div>
+                <div class="skill-item">
+                    <img src="/images/128px-JavaScript-logo.png">
+                    JavaScript
+                </div>
+                <div class="skill-item">
+                    <img src="/images/Git-Icon-White.png">
+                    Git
+                </div>
+                <div class="skill-item">
+                    <img src="/images/React-icon.svg.png">
+                    React
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 class="section-heading">Projects</h2>
+            <div class="projects content">
+                <div class="project project-left">
+                    <a href="https://comments-section-delta.vercel.app/" target="_blank">
+                        <div class="project-img-container">
+                            <img src="/images/comments-screenshot.png">
+                        </div>
+                    </a>
+                    <div class="project-details">
+                        <h3 class="project-title">Interactive Comments Section</h3>
+                        <p class="project-description">React app that saves comments in localstorage and will
+                            persist when the browser is refreshed.</p>
+                        <a href="https://comments-section-delta.vercel.app/">Live App</a>
+                        <a href="https://github.com/juneboom/comments-section">Learn More</a>
+                    </div>
+                </div>
+                <div class="project project-right">
+                    <a href="https://juneboom.github.io/advice-generator/" target="_blank">
+                        <div class="project-img-container">
+                            <img src="/images/adviceapp.png">
+                        </div>
+                    </a>
+                    <div class="project-details">
+                        <h3 class="project-title">Advice Generator App</h3>
+                        <p class="project-description">Generates random advice using the Advice Slip JSON API. <br>Works
+                            best in Chrome.</p>
+                        <a href="https://juneboom.github.io/advice-generator/">Live App</a>
+                        <a href="https://github.com/juneboom/advice-generator">Learn More</a>
+                    </div>
+
+                </div>
+                <div class="project project-left">
+                    <a href="https://juneboom.github.io/100-Days-of-Miku/" target="_blank">
+                        <div class="project-img-container">
+                            <img src="/images/100DaysMiku02.png">
+                        </div>
+                    </a>
+                    <div class="project-details">
+                        <h3 class="project-title">100 Days of Miku</h3>
+                        <p class="project-description">Modal image gallery of a hundred Hatsune Miku drawings. Purely
+                            for
+                            self-amusement.</p>
+                        <a href="https://juneboom.github.io/100-Days-of-Miku/">Live App</a>
+                        <a href="https://github.com/juneboom/100-Days-of-Miku">Learn More</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="section-heading">Contact</h2>
+            <div class="contact content">
+                <p>Have any questions or want to work together on something? Get in touch and I'll respond as soon as
+                    possible.</p>
+                <ul class="socials">
+                    <li>
+                        <a href="https://www.linkedin.com/in/june-stochel/"><img
+                                src="/images/LinkedIn_logo_initials.png"></a>
+                    </li>
+                    <li>
+                        <a href="mailto:junesstoc@gmail.com"><img src="/images/email.png"></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <a id='backToTop' href="#about">
+            <img src="/images/icons8-expand-arrow-50.png" alt="up arrow">
+            <br>Back to Top
+        </a>
+        <div class="attributions">
+            <a target="_blank" href="https://icons8.com/icon/2760/expand-arrow">Expand Arrow</a> icon by <a
+                target="_blank" href="https://icons8.com">Icons8</a> //
+            <a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik -
+                Flaticon</a> //
+            <a href="https://www.flaticon.com/free-icons/girl" title="girl icons">Girl icons created by Victoruler -
+                Flaticon</a>
+        </div>
+    </footer>
+
+
+    <script src="src/particles.js"></script>
+    <script src="src/index.js"></script>
+</body>
+
+</html>
