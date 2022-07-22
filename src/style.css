@@ -462,7 +462,7 @@ footer a {
 @media (min-width: 800px) and (-webkit-min-device-pixel-ratio: 1) {
     .nav {
         justify-content: end;
-        padding-right: 120px;
+        padding-right: 50px;
     }
 
     .section-heading {
@@ -510,6 +510,10 @@ footer a {
 
     p {
         font-size: 1.8rem;
+    }
+
+    .nav {
+        padding-right: 120px;
     }
 
     .nav-item {

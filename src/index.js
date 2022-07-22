@@ -32,7 +32,8 @@ function highlightNav (entries, observer){
     });
 }
 
-//creating an intersection observer
+//creating an intersection observer to highlight nav section
+//project section is significantly longer than the other sections
 function createObserver(target){
     let observer;
     let options = {
@@ -40,7 +41,16 @@ function createObserver(target){
         rootMargin: '0px',
         threshold: 0.75
     };
-    observer = new IntersectionObserver(highlightNav, options);
+    let options2= {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.5
+    };
+    if (target.classList.contains('projects')) {
+        observer = new IntersectionObserver(highlightNav, options2)
+    } else {
+        observer = new IntersectionObserver(highlightNav, options);
+    }
     observer.observe(target);
 }
 
